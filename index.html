@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,40 +10,66 @@
 </head>
 
 <body>
-    <h1>This is a homework where I've practiced with different types of the selectors. I used an element selector on the title to center the text</h1>
-    
-    <p>
-        I made this page's background using the same element selector type as in "h1" tag.
-    </p>
-    
-    <p>
-        I tried to change font using selector which cause effect on all the paragraphs where the parent is "body" tag
-    </p>
-    
-    <p>
-        On this step I used selector which added green color and shadows to <span id="color-uppercase">inputs with "type=text"</span> bellow. 
-        Input with "name=input-bright" will be lightsalmon color and include previous style settings because I attached "name" attribute to selector and place it bellow. 
-    </p>
+    <h1>
+        This is a homework where I've practiced with different types of the selectors.
+        I used an element selector to center the text and add Blue bgcolor.
+    </h1>
 
-    <p>
-        I put all the inputs into the div and used ".class" selector to change background color to aquamarine. and play with overall style. I understand that it has no practical sense, but I made it just as an excercise.
-    </p>
+    <div>
+        <p>
+            I made this Grey page background using the element selector on "body".
+        </p>
 
-    <div class="input-grid">
-     <input type="text">
-     <input type="text">
-     <input type="text" name="input-bright">
-     <input type="text">
+        <p>
+            I tried to change font using selector which cause effect on all the paragraphs where the parent is
+            "body>div"
+            tags.
+        </p>
+
+        <p>
+            I put all inputs into the div and used ".class" selector to change background color to Aquamarine and
+            play with overall style. I understand it has no practical sense, but I made it just as an excercise for myself.
+        </p>
+
+        <p>
+            On next step I used selector which added Green color and shadows to <span id="color-uppercase">inputs with "type=text"</span> which you can see bellow.
+            But input with attribute "name=input-bright" is Lightsalmon color and include previous style settings
+            because I attached "name" attribute to selector and placed it bellow.
+        </p>
+
+        <div class="input-grid">
+            <input type="text">
+            <input type="text">
+            <input type="text" name="input-bright">
+            <input type="text">
+        </div>
+
+        <p>
+            You've probably noticed colored uppercase in previous paragraph. It's because I used an "id=color-uppercase"
+            selector on it
+        </p>
+
+        <p>
+            There are a few pictures from Interstellar movie. I used an element selector type again to adjust width and
+            heigth of three pictures.
+            You can watch it directly on YouTube by <a href="https://www.youtube.com/watch?v=UDVtMYqUAyw"
+                target="_blank">clicking here.</a>
+            (On the link I applied selector which choose every "a" element whose "href" begins with "https")
+        </p>
+
+        <p>Finally on the second picture I used attribute selector which selects all ellements with "title=water-space"
+        </p>
+
     </div>
 
-    <p>
-        You've probably noticed colored uppercase in previous paragraph. It's because I used an "id" selector on it
-    </p>
+    <div>
+        <img src="img/interstellar.jpg" width="200px" alt="Try again later">
+        <img src="img/interstellar (1).jpg" title="water-space" width="200px" alt="Try again later">
+        <img src="img/QTAU3ALF23MVKIKR7FWQO4CP7E.jpg" width="200px" alt="Try again later">
+    </div>
 
-    <p>
-        There are a few pictures from Interstellar movie. You can watch it directly on YouTube by <a href="https://www.youtube.com/watch?v=UDVtMYqUAyw">clicking here</a>
-    </p>
 
 
 </body>
+
 </html>
