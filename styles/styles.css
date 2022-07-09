@@ -5,13 +5,14 @@ h1 {
 
 body {
     background-color: rgb(180, 173, 173);
-    }
+}
 
 
 body>div>p {
     font-size: 25px;
     font-family: Verdana, Arial;
-    }
+    color: rgb(106, 52, 71);
+}
 
 .input-grid {
     display: grid;
@@ -37,9 +38,9 @@ input[name="input-bright"] {
 }
 
 #color-uppercase {
-text-transform: uppercase;
-background-color: indianred;
-color: antiquewhite;
+    text-transform: uppercase;
+    background-color: indianred;
+    color: antiquewhite;
 }
 
 a[href^="https"] {
@@ -50,7 +51,7 @@ a[href^="https"] {
 
 img {
     float: left;
-    width:  200px;
+    width: 200px;
     height: 200px;
     object-fit: cover;
     margin-right: 20px;
