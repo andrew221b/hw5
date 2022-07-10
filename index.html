@@ -10,64 +10,33 @@
 </head>
 
 <body>
-    <h1>
-        This is a homework where I've practiced with different types of the selectors.
-        I used tag selector to center the text and add Blue bgcolor. (1 POINT)
-    </h1>
+    <h1>1.Оформление по тегу h1</h1>
 
-    <div>
-        <p>
-            I made this Grey page background using the tag selector on "body" (1 POINT).
-        </p>
+    <p class="dark">2.Оформление по классу .dark</p>
 
-        <p>
-            I changed font style and color using selector which cause effect on all paragraphs where the parents are
-            "body" and "div" tags (3 POINTS).
-        </p>
+    <p id="bright-italic">3.Оформление по ID #bright-italic</p>
 
-        <p>
-            I put all inputs into the div and used ".class" selector to change background color to Aquamarine and
-            make grid (10 POINTS). I understand it has no practical sense, but I made it just as an excercise for myself.
-        </p>
+    <p class="blue" id="blue">4.Оформление тег p + класс .blue + ID blue (p.blue#blue)</p>
 
-        <p>
-            Next I used tag and attribute selectors which added Green color and shadows to
-            inputs with "type=text" attributes which you can see bellow (11 POINTS).
-            But third input has Lightsalmon color because I used "name=input-bright" and applied tag and attribute selectors and placed it bellow (11 POINTS).
-        </p>
+    <p class="indigo" id="indigo">5.Оформление через класс .indigo + атрибут [id="indigo"] (.indigo[id="indigo"])</p>
 
-        <p>
-            In this <span id="color-uppercase">colored uppercase</span> I used an "id=color-uppercase"
-            selector on it (100 POINTS).
-        </p>
+    <p>
+        <a href="">Оформление по <span>вложенности</span> тегов p>a>span</a>
+    </p>
 
-        <div class="input-grid">
-            <input type="text">
-            <input type="text">
-            <input type="text" name="input-bright">
-            <input type="text">
-        </div>
+    <p>
+        <b>
+            <i>
+                <span>7.Оформление по вложенности тегов p span</span>
+            </i>
+        </b>
+    </p>
 
-        <p>
-            You can watch YouTube video by <a href="https://www.youtube.com/watch?v=UDVtMYqUAyw" target="_blank">clicking here.</a>
-            I applied tag and attribute selectors to the link, which choose every "a" tag whose "href" attribute begins with
-            "https" (11 POINTS).
-        </p>
+    <p style="background-color: yellow;">8.Оформление с помощью инлайнового стиля</p>
 
-        <p>
-            There are a few pictures from Interstellar movie. I used tag selector to adjust width and
-            heigth of all images (1 POINT).
-            Then I put "inline style" to first picture (1000 POINTS).
-            Finally on the second picture I used attribute selector which selects all ellements containing
-            "title=water-space" (10 POINTS).
-        </p>
+    <p class="violet">9.Оформление по тегу р + класс .violet (p.violet) </p>
 
-        <div>
-            <img src="img/interstellar.jpg" width="200" alt="Try again later" style="border-color: indigo;border-style: double;border-width: 7px;">
-            <img src="img/interstellar1.jpg" title="water-space" width="200" alt="Try again later">
-            <img src="img/QTAU3ALF23MVKIKR7FWQO4CP7E.jpg" width="200" alt="Try again later">
-        </div>
-    </div>
+    <p class="pink">10.Оформление через тег р + класс .pink + атрибут [class="pink"]</p>
 </body>
 
 </html>
